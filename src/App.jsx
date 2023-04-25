@@ -33,7 +33,7 @@ function App() {
         <select name="select_gender" onChange={changeGender}>
             <option value="male">Мужской</option>
             <option value="women">Женский</option>
-        </select >
+        </select>
       <h4>My name: {name}</h4>
       <h4>Age: {age}</h4>
       <h4>Gender: {gender}</h4>

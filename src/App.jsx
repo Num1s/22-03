@@ -26,7 +26,7 @@ function App() {
     }
 
     const startCounter = (e) => {
-        dispatch(startCount(e.target.value))
+        dispatch(startCount(Number(e.target.value)))
     }
 
     const changeName = (e) => {

@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-rows: 50px auto 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul a.activeLink {
+  color: red;
+}
